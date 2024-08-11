@@ -1,6 +1,7 @@
 # odin-recipes
 
 > A website designed to whet your appetite
+> Live https://abasiadimas.github.io/odin-recipes/
 
 ## Table of Contents
 
@@ -20,7 +21,7 @@
 
 ## Project Status
 
-Project is: \_under construction
+Project is: \_Finished
 
 ## Authors
 
