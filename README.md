@@ -9,6 +9,7 @@
 - [Built With](#built-with)
 - [Project Status](#project-status)
 - [Authors](#authors)
+- [Version History](#version-history)
 - [Acknowledgements](#acknowledgements)
 
 ## General Information
@@ -21,7 +22,12 @@
 
 ## Project Status
 
-Project is: \_Finished
+Project is: \_Ongoing
+
+## Version History
+
+-2.0
+Update the main page
 
 ## Authors
 
