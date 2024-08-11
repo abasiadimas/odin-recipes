@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(57, 62, 66);
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.mainTitle {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.recipes {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-wrapper {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-title a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.card-title a:hover {
+  color: rgb(226, 181, 33);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.card.card-salat {
+  background-image: url(../img/greek-salad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card.card-stuffed {
+  background-image: url(../img/stuffed-pepper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card.card-soup {
+  background-image: url(../img/bean-soup.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

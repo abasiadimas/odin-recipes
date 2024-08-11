@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin recipes</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <h1 class="mainTitle">Odin Recipes</h1>
 
-    <ul style="list-style-type: none">
-      <li style="font-size: large">
-        <a style="text-decoration: none" href="./recipes/salad.html"
-          >Greek Salad</a
-        >
-      </li>
-      <li style="font-size: large">
-        <a style="text-decoration: none" href="./recipes/gemista.html"
-          >Greek stuffed vegetables</a
-        >
-      </li>
-      <li style="font-size: large">
-        <a style="text-decoration: none" href="./recipes/beans.html"
-          >Greek bean soup</a
-        >
-      </li>
-    </ul>
+    <div class="recipes">
+      <div class="card-wrapper">
+        <div class="card card-salat"></div>
+        <div class="card-title">
+          <a href="./recipes/salad.html">Greek Salad</a>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card card-stuffed"></div>
+        <div class="card-title">
+          <a href="./recipes/gemista.html">Greek stuffed vegetables</a>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card card-soup"></div>
+        <div class="card-title">
+          <a href="./recipes/beans.html">Greek bean soup</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
